@@ -13,13 +13,19 @@ For the frontend
     "react-dom": "^18.2.0",
     "sass": "^1.68.0"
 
+Install all Dependencies (npm i)
+
    To run the project from the universe directory, run the "startAll" script
    The script will run in dev mode backend and frontend
 
    To enter the admin panel
 
-   login: admin@admin.com
-   password: Test123!
+When cloning a project, a new database is created. In the folder backend/json-for-db/json-ex.txt
+There is a json for creating new collection items for the test
+
+A mandatory item will be to set in the admin panel "Settings" -> "USERS & PERMISSIONS PLUGIN" -> "Roles"
+Public -> set all accesses. By default, they are not available
+
 
    The Fox collection for adding items is
    Fields:
@@ -29,9 +35,6 @@ For the frontend
     description - string
     likes - number
     urlWiki (link to wikipedia) - string
-
-   (For the backend of the admin panel, it is set that only authorized users can
-   can make a reply)
 
    For the frontend, we used Astro+React (TS) components with SCSS styling
 
