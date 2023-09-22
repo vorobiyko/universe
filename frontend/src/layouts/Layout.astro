@@ -9,9 +9,9 @@ import ContainerCardsReact from "../components/ContainerCardsReact/ContainerCard
 let  initState: CardForRender[] = [null]
 const response = await fetch(`http://localhost:1337/api/foxes`,{
     method: 'GET',
-    headers: {
-    'Authorization': `Bearer ${token}`
-    }
+    // headers: {
+    // 'Authorization': `Bearer ${token}`
+    // }
     })
 const products = await response.json()
 
