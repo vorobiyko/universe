@@ -20,11 +20,10 @@ Install all Dependencies (npm i)
 
    To enter the admin panel
 
-When cloning a project, a new database is created. In the folder backend/json-for-db/json-ex.txt
+When cloning a project, a new database config (folder .tmp) is created. In the folder backend/json-for-db/json-ex.txt
 There is a json for creating new collection items for the test
 
-A mandatory item will be to set in the admin panel "Settings" -> "USERS & PERMISSIONS PLUGIN" -> "Roles"
-Public -> set all accesses. By default, they are not available
+A mandatory item will be to set in the admin panel "Settings" -> "USERS & PERMISSIONS PLUGIN" -> "Roles"-> Public -> (edit btn)-> Permissions -> Fox -> Select all. By default, they are not available
 
 
    The Fox collection for adding items is
