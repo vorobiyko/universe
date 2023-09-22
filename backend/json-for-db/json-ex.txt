@@ -1,0 +1,101 @@
+[
+    {
+        id: 1,
+        category: 'Fennec fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fennec_Fox_Vulpes_zerda.jpg/220px-Fennec_Fox_Vulpes_zerda.jpg',
+        title: 'fennec fox funny',
+        description: 'The fennec fox has sand-colored fur which reflects sunlight during the day and helps keep it warm at night. Its nose is black. Its tapering tail has a black tip.',
+        likes: 1000,
+        urlWiki: 'https://en.wikipedia.org/wiki/Fennec_fox'
+    },
+    {
+        id: 2,
+        category: 'Fennec fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fennec_Foxes.jpg/220px-Fennec_Foxes.jpg',
+        title: 'fennec fox with friend',
+        description: 'The fennec fox is distributed throughout the Sahara, from Morocco and Mauritania to northern Sudan.',
+        likes: 2000,
+        urlWiki: 'https://en.wikipedia.org/wiki/Fennec_fox'
+    },
+    {
+        id: 3,
+        category: 'Arctic fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Alopex_lagopus_IMG_9019.JPG/220px-Alopex_lagopus_IMG_9019.JPG',
+        title: 'Arctic fox sleeping',
+        description: 'The Arctic fox (Vulpes lagopus), also known as the white fox, polar fox, or snow fox, is a small fox that belongs to the family of Canidae',
+        likes: 2050,
+        urlWiki: 'https://en.wikipedia.org/wiki/Arctic_fox'
+    },
+    {
+        id: 4,
+        category: 'Arctic fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Iceland-1979445_%28cropped_3%29.jpg/220px-Iceland-1979445_%28cropped_3%29.jpg',
+        title: 'Arctic fox looking',
+        description: 'The Arctic fox (Vulpes lagopus), also known as the white fox, polar fox',
+        likes: 2150,
+        urlWiki: 'https://en.wikipedia.org/wiki/Arctic_fox'
+    },
+    {
+        id: 5,
+        category: 'Kit fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/San_Joaquin_Kit_fox_B-40-13_08_20_1993.jpg/220px-San_Joaquin_Kit_fox_B-40-13_08_20_1993.jpg',
+        title: 'Kit fox smile',
+        description: 'The kit fox (Vulpes macrotis) is a fox species that inhabits arid and semi-arid regions of the southwestern United States and northern and central Mexico.',
+        likes: 960,
+        urlWiki: 'https://en.wikipedia.org/wiki/Kit_fox'
+    },
+    {
+        id: 6,
+        category: 'Kit fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Vulpes_macrotis_mutica_sitting.jpg/220px-Vulpes_macrotis_mutica_sitting.jpg',
+        title: 'San Joaquin kit fox sitting',
+        description: 'The kit fox (Vulpes macrotis) is a fox species that inhabits arid and semi-arid regions of the southwestern United States and northern and central Mexico.',
+        likes: 150,
+        urlWiki: 'https://en.wikipedia.org/wiki/Kit_fox'
+    },
+    {
+        id: 7,
+        category: 'Red fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/San_Joaquin_Kit_fox_B-40-13_08_20_1993.jpg/220px-San_Joaquin_Kit_fox_B-40-13_08_20_1993.jpg',
+        title: 'Red fox on hunting',
+        description: 'The red fox (Vulpes vulpes) is the largest of the true foxes and one of the most widely distributed members of the order Carnivora, being present across the entire Northern Hemisphere including most of North America, Europe and Asia, plus parts of North Africa',
+        likes: 3061,
+        urlWiki: 'https://en.wikipedia.org/wiki/Red_fox'
+    },
+    {
+        id: 8,
+        category: 'Red fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Red_fox_kits_%2840215161564%29.jpg/220px-Red_fox_kits_%2840215161564%29.jpg',
+        title: 'Juvenile red foxes are known as kits',
+        description: 'The red fox (Vulpes vulpes) is the largest of the true foxes and one of the most widely distributed members of the order Carnivora, being present across the entire Northern Hemisphere including most of North America, Europe and Asia, plus parts of North Africa',
+        likes: 3061,
+        urlWiki: 'https://en.wikipedia.org/wiki/Red_fox'
+    },
+    {
+        id: 9,
+        category: 'Pet fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fennec_Fox_Vulpes_zerda.jpg/275px-Fennec_Fox_Vulpes_zerda.jpg',
+        title: 'Pet fox (downward glance)',
+        description: 'A miniature fox with ears large relative to the body, living in the deserts of North Africa. It is sometimes separated into a special genus Fennecus',
+        likes: 6061,
+        urlWiki: 'https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BD%D0%B5%D0%BA'
+    },
+    {
+        id: 10,
+        category: 'Pet fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/VulpesZerdaOnCouch.JPG/220px-VulpesZerdaOnCouch.JPG',
+        title: 'Pet fox as a pet',
+        description: 'The exact numbers of fennecs are unknown. They are hunted, killed for their fur, and also caught and sold as pets.',
+        likes: 1261,
+        urlWiki: 'https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BD%D0%B5%D0%BA'
+    },
+    {
+        id: 11,
+        category: 'Pet fox',
+        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2009-03-07Vulpes_zerda024.jpg/220px-2009-03-07Vulpes_zerda024.jpg',
+        title: 'Pet fox (can see the fennec\'s pubescent feet)',
+        description: 'Fenech is the smallest member of the dog family, smaller than a domestic cat in size. The muzzle is short, pointed. The eyes are large.',
+        likes: 4261,
+        urlWiki: 'https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BD%D0%B5%D0%BA'
+    },
+]
