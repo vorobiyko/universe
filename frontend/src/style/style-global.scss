@@ -1,0 +1,64 @@
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-header{
+    margin-top: 50px;
+  }
+
+
+  &-maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 50px 0;
+    &-section{
+      padding: 10px;
+      &-card{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+        margin: 20px 0;
+        &-image{
+          border-radius: 7px;
+          width: 100%;
+        }
+
+        &-ui{
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          &-header{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            &-likes{
+              display: flex;
+              align-items: center;
+              &-heart{
+                margin-right: 5px;
+              }
+            }
+          }
+          &-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            &-description{
+              margin: 5px 0 10px;
+              border-top: 2px #F8F8F8 solid;
+            }
+            &-button{
+              justify-items: right;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+

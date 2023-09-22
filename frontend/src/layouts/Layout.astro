@@ -1,0 +1,27 @@
+---
+import {CardForRender} from "../types/card.type";
+import {token} from "../tokenAPI/token";
+
+
+import HeaderReact from "../components/HeaderReact/HeaderReact";
+import ContainerCardsReact from "../components/ContainerCardsReact/ContainerCardsReact";
+
+let  initState: CardForRender[] = [null]
+const response = await fetch(`http://localhost:1337/api/foxes`,{
+    method: 'GET',
+    headers: {
+    'Authorization': `Bearer ${token}`
+    }
+    })
+const products = await response.json()
+
+
+initState = products.data as CardForRender[]
+---
+
+<>
+<HeaderReact/>
+<main class="project-maincontainer">
+    <ContainerCardsReact client:load data={initState} />
+</main>
+</>

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foxes",
+  "info": {
+    "singularName": "fox",
+    "pluralName": "foxes",
+    "displayName": "Fox"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "integer"
+    },
+    "urlWiki": {
+      "type": "string"
+    }
+  }
+}
